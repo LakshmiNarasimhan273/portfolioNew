@@ -14,7 +14,7 @@ function Footer() {
     {
       id: 2,
       src: <resume.AiOutlineFilePdf />,
-      link: "/Lakshmi-NarasimhanResume.pdf",
+      link: "/Lakshmi_Narasimhan_Resume.pdf",
       download: true,
     },
 
