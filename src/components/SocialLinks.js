@@ -34,7 +34,7 @@ const SocialLinks = () => {
           Mail <HiIcons.HiOutlineMailOpen size={30} />
         </>
       ),
-      href: "mailto: bachelorofphotography@gmail.com",
+      href: "mailto: lakshminarasimhan511@gmail.com",
     },
 
     {
@@ -44,7 +44,7 @@ const SocialLinks = () => {
           Resume <FaIcons.FaWpforms size={30} />
         </>
       ),
-      href: "/Lakshmi_Narasimhan_Resume.pdf",
+      href: "/Lakshmi-Narasimhan-Resume.pdf",
       style: "rounded-br-md",
       download: true,
     },

@@ -8,13 +8,13 @@ function Footer() {
     {
       id: 1,
       src: <Icons.SiGmail />,
-      link: "mailto: bachelorofphotography@gmail.com",
+      link: "mailto: lakshminarasimhan511@gmail.com",
     },
 
     {
       id: 2,
       src: <resume.AiOutlineFilePdf />,
-      link: "/Lakshmi_Narasimhan_Resume.pdf",
+      link: "/Lakshmi-Narasimhan-Resume.pdf",
       download: true,
     },
 

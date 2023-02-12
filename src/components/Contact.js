@@ -18,24 +18,27 @@ const Contact = () => {
         </div>
         <div className="flex justify-center items-center">
           <form
-            action="https://getform.io/f/ed8516b7-16a5-4539-bb42-c334c25f8288"
+            action="https://getform.io/f/db15f20f-eb95-48d6-b1f7-bd75ddf7e4b0"
             method="POST"
             className="flex flex-col w-full md:w-1/2"
           >
             <input
               type="text"
               name="name"
+              required
               placeholder="Enter your Name"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <input
               type="email"
               name="email"
+              required
               placeholder="Enter your E-mail"
               className="my-3 p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
             />
             <textarea
               name="message"
+              required
               placeholder="Enter your Message"
               rows="10"
               className="p-2 bg-transparent border-2 rounded-md text-white focus:outline-none"
