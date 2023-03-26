@@ -13,8 +13,9 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-24 text-gray-200">
-          Hi!, I'm currently working on Aachariya Infotech organization and
-          holding a <span className="font-bold text-2xl">1+ years </span>of IT
+          Hi!, I'm currently working on Software Trainer at Achariya Infotech
+          organization and holding a
+          <span className="font-bold text-2xl">1.7 years </span>of IT
           expereience and i completed my B.C.A graduation at Bharadhidasan
           University and am currently pursuing M.C.A degree at Anna University.
           These two majors are only focused on Computer Applications. Except for
@@ -37,7 +38,7 @@ const About = () => {
           >
             {" "}
             bachelor_of_photographyy
-          </a>{" "}
+          </a>
           .
           <br />
           My Life principle is simple
