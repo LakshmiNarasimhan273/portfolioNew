@@ -9,7 +9,7 @@ const Portfolio = () => {
     {
       id: 1,
       src: eCommerce,
-      title: "Cart Application",
+      title: "Cart Application (Job)",
       style: "shadow-indigo-900 ",
       // link: "https://github.com/Sriram511/python_student_management_dashboard",
     },
@@ -32,9 +32,7 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
-          <p className="py-20">
-            Check out My Successfully Completed Project at my Job
-          </p>
+          <p className="py-20">Check out My Successfully Completed Project</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
