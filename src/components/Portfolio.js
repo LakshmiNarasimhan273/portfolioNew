@@ -3,7 +3,7 @@ import React from "react";
 // import crudApp from "../assets/portfolio/crud.png";
 // import weatherPY from "../assets/portfolio/weatherPY.png";
 import eCommerce from "../assets/portfolio/eCommerce.png";
-import faceDetection from "../assets/portfolio/pngwing.com.png";
+// import faceDetection from "../assets/portfolio/pngwing.com.png";
 
 const Portfolio = () => {
   const projects = [
@@ -14,12 +14,12 @@ const Portfolio = () => {
       style: "shadow-orange-900 ",
       // link: "https://github.com/Sriram511/python_student_management_dashboard",
     },
-    {
-      id: 2,
-      src: faceDetection,
-      title: "Face Detection (Self)",
-      style: "shadow-sky-900",
-    },
+    // {
+    //   id: 2,
+    //   src: faceDetection,
+    //   title: "Face Detection (Self)",
+    //   style: "shadow-sky-900",
+    // },
     // {
     //   id: 2,
     //   src: weatherPY,
