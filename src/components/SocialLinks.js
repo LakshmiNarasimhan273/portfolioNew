@@ -44,7 +44,7 @@ const SocialLinks = () => {
           Resume <FaIcons.FaWpforms size={30} />
         </>
       ),
-      href: "/Lakshmi-Narasimhan-Resume.pdf",
+      href: "/Lakshmi-Narasimhan-CV.pdf",
       style: "rounded-br-md",
       download: true,
     },
