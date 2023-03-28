@@ -9,9 +9,8 @@ import git from "../assets/git.png";
 import github from "../assets/github.png";
 import postman from "../assets/postman.png";
 import node from "../assets/node.png";
-// import python from "../assets/python.png";
 import mongodb from "../assets/mongodb.png";
-// import sql from "../assets/sql.png";
+import express from "../assets/express.png";
 
 const Experience = () => {
   const techTools = [
@@ -60,27 +59,15 @@ const Experience = () => {
     {
       id: 8,
       src: node,
-      title: "NODEJS",
+      title: "NODE.JS",
       style: "shadow-green-500",
     },
-    // {
-    //   id: 9,
-    //   src: python,
-    //   title: "PYTHON",
-    //   style: "shadow-yellow-500",
-    // },
     {
       id: 10,
       src: mongodb,
       title: "MONGODB",
       style: "shadow-green-500",
     },
-    // {
-    //   id: 11,
-    //   src: sql,
-    //   title: "SQL",
-    //   style: "shadow-blue-500",
-    // },
     {
       id: 12,
       src: git,
@@ -98,6 +85,12 @@ const Experience = () => {
       src: postman,
       title: "POSTMAN API-TOOL",
       style: "shadow-orange-600",
+    },
+    {
+      id: 15,
+      src: express,
+      title: "EXPRESS.JS",
+      style: "shadow-gray-500",
     },
   ];
 
