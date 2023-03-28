@@ -35,26 +35,27 @@ const Experience = () => {
     {
       id: 4,
       src: tailwind,
-      title: "TAILWIND",
+      title: "TAILWIND CSS",
       style: "shadow-sky-400",
     },
-    // {
-    //   id: 5,
-    //   src: sass,
-    //   title: "SASS",
-    //   style: "shadow-pink-400",
-    // },
+    {
+      id: 5,
+      src: mongodb,
+      title: "MONGO_DB",
+      style: "shadow-green-500",
+    },
     {
       id: 6,
+      src: express,
+      title: "EXPRESS.JS",
+      style: "shadow-gray-500",
+    },
+
+    {
+      id: 7,
       src: react,
       title: "REACT",
       style: "shadow-sky-400",
-    },
-    {
-      id: 7,
-      src: redux,
-      title: "REDUX",
-      style: "shadow-purple-500",
     },
     {
       id: 8,
@@ -62,35 +63,30 @@ const Experience = () => {
       title: "NODE.JS",
       style: "shadow-green-500",
     },
+
     {
-      id: 10,
-      src: mongodb,
-      title: "MONGODB",
-      style: "shadow-green-500",
+      id: 9,
+      src: redux,
+      title: "REDUX.JS",
+      style: "shadow-purple-500",
     },
     {
-      id: 12,
+      id: 10,
       src: git,
       title: "GIT",
       style: "shadow-green-500",
     },
     {
-      id: 13,
+      id: 11,
       src: github,
       title: "GITHUB",
       style: "shadow-gray-500",
     },
     {
-      id: 14,
+      id: 12,
       src: postman,
       title: "POSTMAN API-TOOL",
       style: "shadow-orange-600",
-    },
-    {
-      id: 15,
-      src: express,
-      title: "EXPRESS.JS",
-      style: "shadow-gray-500",
     },
   ];
 
