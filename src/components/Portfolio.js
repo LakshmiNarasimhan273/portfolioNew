@@ -1,9 +1,6 @@
 import React from "react";
-// import chatApp from "../assets/portfolio/chatApp.png";
-// import crudApp from "../assets/portfolio/crud.png";
-// import weatherPY from "../assets/portfolio/weatherPY.png";
 import eCommerce from "../assets/portfolio/eCommerce.png";
-// import faceDetection from "../assets/portfolio/pngwing.com.png";
+import webService from "../assets/portfolio/webService.png";
 
 const Portfolio = () => {
   const projects = [
@@ -12,21 +9,13 @@ const Portfolio = () => {
       src: eCommerce,
       title: "Cart Application (Job)",
       style: "shadow-orange-900 ",
-      // link: "https://github.com/Sriram511/python_student_management_dashboard",
     },
-    // {
-    //   id: 2,
-    //   src: faceDetection,
-    //   title: "Face Detection (Self)",
-    //   style: "shadow-sky-900",
-    // },
-    // {
-    //   id: 2,
-    //   src: weatherPY,
-    //   title: "Weather Application Python",
-    //   style: "shadow-indigo-900",
-    //   // link: "https://github.com/Sriram511/weather_Application_Python",
-    // },
+    {
+      id: 2,
+      src: webService,
+      title: "Maintaining current websites and added more applying feauters",
+      style: "shadow-sky-400",
+    },
   ];
 
   return (
@@ -54,7 +43,7 @@ const Portfolio = () => {
                 className={` rounded-md duration-300 hover:scale-105`}
               />
               <div className="text-center font-bold">
-                <button className="w-1/2 uppercase px-6 py-3 duration-200 hover:scale-105">
+                <button className="w-1/2 uppercase py-10 duration-200 hover:scale-105">
                   {title}
                 </button>
               </div>
