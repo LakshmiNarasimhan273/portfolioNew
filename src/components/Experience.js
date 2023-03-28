@@ -8,9 +8,9 @@ import redux from "../assets/redux.png";
 import git from "../assets/git.png";
 import github from "../assets/github.png";
 import postman from "../assets/postman.png";
-// import node from "../assets/node.png";
+import node from "../assets/node.png";
 // import python from "../assets/python.png";
-// import mongodb from "../assets/mongodb.png";
+import mongodb from "../assets/mongodb.png";
 // import sql from "../assets/sql.png";
 
 const Experience = () => {
@@ -57,24 +57,24 @@ const Experience = () => {
       title: "REDUX",
       style: "shadow-purple-500",
     },
-    // {
-    //   id: 8,
-    //   src: node,
-    //   title: "NODEJS",
-    //   style: "shadow-green-500",
-    // },
+    {
+      id: 8,
+      src: node,
+      title: "NODEJS",
+      style: "shadow-green-500",
+    },
     // {
     //   id: 9,
     //   src: python,
     //   title: "PYTHON",
     //   style: "shadow-yellow-500",
     // },
-    // {
-    //   id: 10,
-    //   src: mongodb,
-    //   title: "MONGODB",
-    //   style: "shadow-green-500",
-    // },
+    {
+      id: 10,
+      src: mongodb,
+      title: "MONGODB",
+      style: "shadow-green-500",
+    },
     // {
     //   id: 11,
     //   src: sql,
