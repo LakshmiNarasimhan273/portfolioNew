@@ -76,7 +76,7 @@ function Footer() {
             </div>
           ))}
         </div>
-        <div className="text-gray-700 py-6 max-w-screen-lg mx-auto border-t-2 border-gray-500">
+        <div className="text-gray-700 py-6 max-w-screen-lg mx-auto border-t-2 border-gray-700">
           <div className="text-sm font-bold md:text-md flex pt-2 justify-center">
             <p>
               2022 - Present | Developed & Maintaining by Lakshmi Narasimhan
