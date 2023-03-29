@@ -13,6 +13,7 @@ const Contact = () => {
           .pauseFor(3000)
           .deleteAll()
           .typeString("Send Message...")
+          .pauseFor(3000)
           .deleteAll()
           .typeString("Send Message...")
           .start();
