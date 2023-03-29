@@ -29,9 +29,9 @@ const Home = () => {
           </h2>
 
           <p className="text-gray-400 py-4 max-w-md">
-            Hi!, i am Familiar with ReactJS for building and designing the UI
-            Components , I love to work on web application using technologies
-            like React, Javscript & Redux ;
+            Hi!, i am Familiar with React for building and designing the UI
+            Components , I love to work on web application using the
+            technologies of React, Javscript & Redux ;
           </p>
 
           <div>
