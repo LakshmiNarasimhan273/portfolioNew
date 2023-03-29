@@ -44,7 +44,7 @@ const Navbar = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 uppercase text-sm cursor-pointer font-medium text-gray-400 hover:scale-105 duration-200"
+            className="px-4 uppercase text-sm cursor-pointer font-semibold text-gray-400 hover:scale-105 duration-200"
           >
             <Link to={link} smooth duration={600}>
               {link}
@@ -65,7 +65,7 @@ const Navbar = () => {
           {links.map(({ id, link }) => (
             <li
               key={id}
-              className="px-4 cursor-pointer uppercase py-4 text-3xl"
+              className="px-4 cursor-pointer font-semibold uppercase py-4 text-3xl"
             >
               <Link
                 onClick={() => setNav(!nav)}

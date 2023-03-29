@@ -21,7 +21,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b py-24 from-black to-gray-800 text-white w-full md:h-full"
+      className="bg-gradient-to-b py-24 from-black to-gray-800 text-gray-300 w-full md:h-full"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -39,7 +39,7 @@ const Portfolio = () => {
             >
               <img
                 src={src}
-                alt="My Chat Application onGoing Project"
+                alt="Project Overview"
                 className={` rounded-md duration-300 hover:scale-105`}
               />
               <div className="text-center font-bold">
