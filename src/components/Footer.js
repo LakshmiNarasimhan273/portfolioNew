@@ -76,9 +76,11 @@ function Footer() {
             </div>
           ))}
         </div>
-        <div className="text-gray-700 py-6 max-w-screen-lg mx-auto border-t-2 border-gray-900">
-          <div className="text-sm font-bold md:text-md flex pt-2 justify-center cursor-pointer">
-            <p>© 2022 - Now | Developed & Maintained by Lakshmi Narasimhan</p>
+        <div className="text-gray-700 py-6 max-w-screen-lg mx-auto border-t-2 border-gray-500">
+          <div className="text-sm font-bold md:text-md flex pt-2 justify-center">
+            <p>
+              2022 - Present | Developed & Maintaining by Lakshmi Narasimhan
+            </p>
           </div>
           <div className="text-sm font-bold md:text-md flex justify-center">
             <p>Last Updated on 29-03-2023</p>
