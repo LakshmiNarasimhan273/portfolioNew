@@ -7,7 +7,7 @@ const Portfolio = () => {
     {
       id: 1,
       src: eCommerce,
-      title: "Cart Application (Job)",
+      title: "Cart Application",
       style: "shadow-orange-900 ",
     },
     {
