@@ -12,6 +12,9 @@ const Home = () => {
           .typeString("UI Designer")
           .pauseFor(1000)
           .deleteAll()
+          .typeString("MERN Stack Trainer")
+          .pauseFor(1000)
+          .deleteAll()
           .typeString("React Developer")
           .start();
       }}

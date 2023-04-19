@@ -1,7 +1,6 @@
 import React from "react";
 import * as Icons from "react-icons/si";
 import * as twitIcon from "react-icons/bs";
-import * as resume from "react-icons/ai";
 
 function Footer() {
   const medias = [
@@ -17,14 +16,6 @@ function Footer() {
       src: <Icons.SiGmail />,
       link: "mailto: lakshminarasimhan511@gmail.com",
       style: "text-red-600",
-    },
-
-    {
-      id: 3,
-      src: <resume.AiOutlineFilePdf />,
-      link: "/Lakshmi-Narasimhan-CV.pdf",
-      download: true,
-      style: "text-gray-300",
     },
 
     {

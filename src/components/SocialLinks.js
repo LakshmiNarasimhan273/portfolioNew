@@ -36,18 +36,6 @@ const SocialLinks = () => {
       ),
       href: "mailto: lakshminarasimhan511@gmail.com",
     },
-
-    {
-      id: 4,
-      child: (
-        <>
-          Resume <FaIcons.FaWpforms size={30} />
-        </>
-      ),
-      href: "/Lakshmi-Narasimhan-CV.pdf",
-      style: "rounded-br-md",
-      download: true,
-    },
   ];
 
   return (
