@@ -1,6 +1,6 @@
 import React from "react";
 import eCommerce from "../assets/portfolio/eCommerce.png";
-import webService from "../assets/portfolio/webService.png";
+import aiApplication from "../assets/portfolio/ai_Application.png";
 
 const Portfolio = () => {
   const projects = [
@@ -12,8 +12,8 @@ const Portfolio = () => {
     },
     {
       id: 2,
-      src: webService,
-      title: "Maintaining current websites and added more applying feauters",
+      src: aiApplication,
+      title: "AI News Application",
       style: "shadow-sky-400",
     },
   ];
@@ -32,7 +32,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {projects.map(({ id, src, title, link, style }) => (
+          {projects.map(({ id, src, title, style }) => (
             <div
               key={id}
               className={`shadow-md ${style} hover:shadow-gray-500 duration-150 rounded-lg`}
@@ -43,7 +43,9 @@ const Portfolio = () => {
                 className={` rounded-md duration-300 hover:scale-105`}
               />
               <div className="text-center font-bold">
-                <button className="w-1/2 uppercase py-10 duration-200 hover:scale-105">
+                <button
+                  className={`w-1/2 uppercase  py-10 duration-200 hover:scale-105`}
+                >
                   {title}
                 </button>
               </div>

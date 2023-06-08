@@ -15,7 +15,7 @@ const About = () => {
         <p className="text-xl mt-24 text-gray-300">
           Hi!, I'm currently working as a Software Trainer at Achariya Infotech
           organization and holding a{" "}
-          <strong className="text-gray-200 text-2xl">1.7 years </strong>of IT
+          <strong className="text-gray-200 text-2xl">2+ years </strong>of IT
           expereience and i completed my B.C.A graduation at Bharadhidasan
           University and am currently pursuing M.C.A degree at Anna University
           on Distance Education Mode. My two majors are only focused on Computer

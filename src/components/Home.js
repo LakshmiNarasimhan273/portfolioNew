@@ -27,7 +27,7 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto pt-12 flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-2xl sm:text-5xl font-bold text-white">
+          <h2 className="text-2xl sm:text-4xl font-bold text-white">
             I'm a {text}
           </h2>
 
