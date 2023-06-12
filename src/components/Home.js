@@ -55,7 +55,7 @@ const Home = () => {
           <img
             src={FedevImage}
             alt="FrontEnd Developer"
-            className="mx-auto rounded-xl w-1/2 md:w-1/2"
+            className="mx-auto h-[40%] rounded-xl w-1/2 md:w-1/2"
           />
         </div>
       </div>

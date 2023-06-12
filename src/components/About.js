@@ -13,39 +13,40 @@ const About = () => {
           </p>
         </div>
         <p className="text-xl mt-24 text-gray-300">
-          Hi!, I'm currently working as a Software Trainer at Achariya Infotech
-          organization and holding a{" "}
-          <strong className="text-gray-200 text-2xl">2+ years </strong>of IT
-          expereience and i completed my B.C.A graduation at Bharadhidasan
-          University and am currently pursuing M.C.A degree at Anna University
-          on Distance Education Mode. My two majors are only focused on Computer
-          Applications. Except for College Studies, am completed certificate
-          course in
-          <b> Full Stack Development </b> that contains (HTML, CSS, JavaScript,
-          MongoDB, Express.js, React.js, Node.js(MERN Stack)) ; and i have
-          knowledge in <b>React-Native</b> also.
-        </p>
-        <br />
-        <p className="text-xl text-gray-300">
-          Am self-motivated and code-addicted too. I like to learn new things
-          and new technologies every day and my passion is doing Photography I
-          have an Instagram profile for this also. If you had some free times.
-          Please visit my Instagram page
-          <a
-            href="https://www.instagram.com/bachelor_of_photographyy/"
-            className="inline border-b-2 border-gray-500"
-            target="_blank"
-            rel="noreferrer"
-          >
-            {" "}
-            bachelor_of_photographyy
-          </a>
-          .
+          As a Full-Stack trainer with over 2+ years of experience, I have a
+          strong passion for teaching and a deep understanding of both front-end
+          and back-end development. I possess comprehensive knowledge of various
+          programming languages, frameworks, and tools commonly used in ll
+          development. <br />
           <br />
-          My Life principle is simple
-          <strong className="uppercase">
-            "Whatever happen will happen so keep smile : ) and move on".....
-          </strong>
+          In my role as a trainer, I have successfully designed and delivered
+          training programs that cover the entire spectrum of -s development. I
+          have expertise in front-end technologies such as HTML5, CSS3,
+          JavaScript, and popular frameworks like React, and CSS Framework
+          Tailwind. I am proficient in back-end technologies such as Node.js,
+          along with their respective frameworks like Express and Databases like
+          MySql &n MongoDB <br />
+          My training sessions are highly interactive and engaging, ensuring
+          that participants are actively involved in the learning process. I
+          have a knack for breaking down complex concepts into simpler, more
+          understandable parts, allowing learners to grasp the material
+          effectively. Additionally, I provide hands-on coding exercises,
+          projects, and real-world examples to reinforce learning and practical
+          application. <br /> <br />
+          Throughout my training career, I have received positive feedback from
+          participants, highlighting my ability to communicate technical
+          concepts clearly and create an inclusive learning environment. I am
+          adept at adapting my teaching style to accommodate learners of various
+          skill levels, from beginners to advanced developers. I stay updated
+          with the latest industry trends, regularly expanding my knowledge and
+          incorporating cutting-edge technologies into my training programs. By
+          doing so, I ensure that my trainees are equipped with the most
+          relevant and up-to-date skills required in the ever-evolving field of
+          ta development <br />
+          ck capable of creating robust and scalable web applications. With my
+          comprehensive technical expertise, strong communication skills, and
+          full-stack teaching, I am confident in my ability to contribute
+          positively to any training program or organization I am a part of.
         </p>
       </div>
     </div>

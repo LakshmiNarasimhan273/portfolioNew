@@ -1,13 +1,14 @@
 import React from "react";
 import eCommerce from "../assets/portfolio/eCommerce.png";
 import aiApplication from "../assets/portfolio/ai_Application.png";
+import dashboard from "../assets/portfolio/dashboard.png";
 
 const Portfolio = () => {
   const projects = [
     {
       id: 1,
       src: eCommerce,
-      title: "Cart Application",
+      title: "e-commerce Cart Application",
       style: "shadow-orange-900 ",
     },
     {
@@ -15,6 +16,13 @@ const Portfolio = () => {
       src: aiApplication,
       title: "AI News Application",
       style: "shadow-sky-400",
+    },
+    {
+      id: 3,
+      src: dashboard,
+      title: "Employee Status Dashboard",
+      style: "shadow-blue-500",
+      margin: "mt-6",
     },
   ];
 
@@ -28,11 +36,11 @@ const Portfolio = () => {
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Portfolio
           </p>
-          <p className="py-20">Check out My Successfully Completed Project</p>
+          <p className="py-20"> Successfully Completed Project</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {projects.map(({ id, src, title, style }) => (
+          {projects.map(({ id, src, title, style, margin }) => (
             <div
               key={id}
               className={`shadow-md ${style} hover:shadow-gray-500 duration-150 rounded-lg`}
@@ -44,7 +52,7 @@ const Portfolio = () => {
               />
               <div className="text-center font-bold">
                 <button
-                  className={`w-1/2 uppercase  py-10 duration-200 hover:scale-105`}
+                  className={`w-1/2 uppercase ${margin}  py-10 duration-200 hover:scale-105`}
                 >
                   {title}
                 </button>
