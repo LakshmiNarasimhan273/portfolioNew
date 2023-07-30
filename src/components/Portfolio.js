@@ -1,6 +1,5 @@
 import React from "react";
 import eCommerce from "../assets/portfolio/eCommerce.png";
-import aiApplication from "../assets/portfolio/ai_Application.png";
 import dashboard from "../assets/portfolio/dashboard.png";
 
 const Portfolio = () => {
@@ -10,12 +9,6 @@ const Portfolio = () => {
       src: eCommerce,
       title: "e-commerce Cart Application",
       style: "shadow-orange-900 ",
-    },
-    {
-      id: 2,
-      src: aiApplication,
-      title: "AI News Application",
-      style: "shadow-sky-400",
     },
     {
       id: 3,

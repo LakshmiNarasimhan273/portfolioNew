@@ -73,9 +73,6 @@ function Footer() {
               2022 - Present | Developed & Maintaining by Lakshmi Narasimhan
             </p>
           </div>
-          <div className="text-sm font-bold md:text-md flex justify-center">
-            <p>Last Updated on 29-03-2023</p>
-          </div>
         </div>
       </div>
     </>
