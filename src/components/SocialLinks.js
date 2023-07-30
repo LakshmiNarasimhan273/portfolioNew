@@ -13,7 +13,7 @@ const SocialLinks = () => {
           LinkedIn <FaIcons.FaLinkedin size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/lakshmi-narasimhan-7405221a9/",
+      href: "https://www.linkedin.com/in/lakshmi-narasimhan-developer/",
       style: "rounded-tr-md",
     },
 

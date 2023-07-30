@@ -8,7 +8,7 @@ function Footer() {
       id: 1,
       src: <twitIcon.BsGithub />,
       link: "https://github.com/Sriram511/",
-      style: "text-gray-100",
+      style: "text-gray-800",
     },
 
     {
@@ -49,10 +49,10 @@ function Footer() {
 
   return (
     <>
-      <div className=" bg-gradient-to-b from-gray-800 to-black">
+      <div className=" bg-slate-100">
         <div
           name="profiles"
-          className="flex justify-center text-3xl gap-6 sm:gap-12 w-full h-full py-16 text-gray-500"
+          className="flex justify-center text-3xl gap-6 sm:gap-12 w-full h-full py-16 text-slate-800"
         >
           {medias.map(({ id, src, link, download, style }) => (
             <div key={id} className={`hover:scale-105 ${style} duration-200`}>
@@ -67,7 +67,7 @@ function Footer() {
             </div>
           ))}
         </div>
-        <div className="text-gray-700 py-6 max-w-screen-lg mx-auto border-t-2 border-gray-700">
+        <div className="text-slate-500 py-6 max-w-screen-lg mx-auto border-t-2 border-slate-400">
           <div className="text-sm font-bold md:text-md flex pt-2 justify-center">
             <p>
               2022 - Present | Developed & Maintaining by Lakshmi Narasimhan

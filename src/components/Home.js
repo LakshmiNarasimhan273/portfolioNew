@@ -23,18 +23,18 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800"
+      className="h-screen w-full bg-gradient-to-b bg-slate-100 text-slate-800"
     >
       <div className="max-w-screen-lg mx-auto pt-12 flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-2xl sm:text-4xl font-bold text-white">
+          <h2 className="text-2xl sm:text-4xl font-bold text-slate-800">
             I'm a {text}
           </h2>
 
-          <p className="text-gray-400 py-4 max-w-md">
+          <p className="text-slate-500 py-4 max-w-md">
             Hi!, i am Familiar with React for building and designing the UI
             Components , I love to work on web application using the
-            technologies of React, Javscript & Redux ;
+            technologies of MongoDB, Express, React & Node ;
           </p>
 
           <div>
@@ -55,7 +55,7 @@ const Home = () => {
           <img
             src={FedevImage}
             alt="FrontEnd Developer"
-            className="mx-auto h-[40%] rounded-xl w-1/2 md:w-1/2"
+            className="mx-auto rounded-xl w-1/2 md:w-1/2"
           />
         </div>
       </div>

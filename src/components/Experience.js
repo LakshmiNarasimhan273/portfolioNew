@@ -36,7 +36,7 @@ const Experience = () => {
       id: 4,
       src: tailwind,
       title: "TAILWIND CSS",
-      style: "shadow-sky-400",
+      style: "shadow-sky-500",
     },
     {
       id: 5,
@@ -61,7 +61,7 @@ const Experience = () => {
       id: 8,
       src: node,
       title: "NODE.JS",
-      style: "shadow-green-500",
+      style: "shadow-green-600",
     },
 
     {
@@ -74,33 +74,30 @@ const Experience = () => {
       id: 10,
       src: git,
       title: "GIT",
-      style: "shadow-green-500",
+      style: "shadow-red-400",
     },
     {
       id: 11,
       src: github,
       title: "GITHUB",
-      style: "shadow-gray-500",
+      style: "shadow-slate-800",
     },
     {
       id: 12,
       src: postman,
-      title: "POSTMAN API-TOOL",
-      style: "shadow-orange-600",
+      title: "POSTMAN API",
+      style: "shadow-orange-700",
     },
   ];
 
   return (
-    <div
-      name="experience"
-      className="bg-gradient-to-b from-gray-800 to-black w-full h-full"
-    >
-      <div className="max-w-screen-lg mx-auto p-4 py-24 flex flex-col justify-center w-full h-full text-gray-300">
+    <div name="experience" className="bg-slate-100 w-full h-full">
+      <div className="max-w-screen-lg mx-auto p-4 py-24 flex flex-col justify-center w-full h-full">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500  inline">
+          <p className="text-4xl text-slate-800 font-bold border-b-4 border-gray-500  inline">
             Experience
           </p>
-          <p className="py-24">
+          <p className="py-24 text-slate-500">
             These are the Technologies and Tools I've Worked with
           </p>
         </div>
@@ -111,7 +108,7 @@ const Experience = () => {
               className={`shadow-md hover:scale-105 duration-500 py-0 rounded-lg ${style}`}
             >
               <img src={src} alt="" className="w-20 mx-auto" />
-              <p className="mt-4">{title}</p>
+              <p className="mt-4 font-semibold">{title}</p>
             </div>
           ))}
         </div>
