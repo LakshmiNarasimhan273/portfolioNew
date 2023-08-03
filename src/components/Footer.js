@@ -7,7 +7,7 @@ function Footer() {
     {
       id: 1,
       src: <twitIcon.BsGithub />,
-      link: "https://github.com/Sriram511/",
+      link: "https://github.com/LakshmiNarasimhan273",
       style: "text-gray-800",
     },
 

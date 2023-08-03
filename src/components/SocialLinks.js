@@ -24,7 +24,7 @@ const SocialLinks = () => {
           Github <FaIcons.FaGithubSquare size={30} />
         </>
       ),
-      href: "https://github.com/Sriram511",
+      href: "https://github.com/LakshmiNarasimhan273",
     },
 
     {
