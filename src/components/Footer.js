@@ -70,7 +70,8 @@ function Footer() {
         <div className="text-slate-500 py-6 max-w-screen-lg mx-auto border-t-2 border-slate-400">
           <div className="text-sm font-bold md:text-md flex pt-2 justify-center">
             <p>
-              2022 - Present | Developed & Maintaining by Lakshmi Narasimhan
+              2022 - Present | Developed & Maintaining by{" "}
+              <span className="underline">Lakshmi Narasimhan</span>
             </p>
           </div>
         </div>

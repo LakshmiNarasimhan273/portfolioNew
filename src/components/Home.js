@@ -15,7 +15,7 @@ const Home = () => {
           .typeString("MERN Stack Trainer")
           .pauseFor(1000)
           .deleteAll()
-          .typeString("React Developer")
+          .typeString("Software Developer🙂 ")
           .start();
       }}
     />
@@ -27,7 +27,7 @@ const Home = () => {
     >
       <div className="max-w-screen-lg mx-auto pt-12 flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h2 className="text-2xl sm:text-4xl font-bold text-slate-800">
+          <h2 className="text-2xl sm:text-3xl font-bold text-slate-800">
             I'm a {text}
           </h2>
 
